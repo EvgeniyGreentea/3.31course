@@ -1,0 +1,672 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo__conteiner{
+    margin-right: 11%;
+    margin-left: 250px;
+    padding-top: 11px;
+    padding-bottom: 16px;
+    height: 100px;
+    display: block;
+    /* border: 1px solid red; */
+}
+.clearfix:after{
+    content:'';
+    display: table;
+    clear: both;
+    width: 100%;
+}
+div, p, button, li, ul{
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.logo__logo{
+    float: left;
+}
+.logo__info{
+    margin-left: 12px;
+    float: left;
+    margin-top: 25px;
+}
+
+.logo__list{
+    margin-top: 31px;
+    margin-bottom: 27px;
+}
+.logo__element{
+    float: left;
+    margin-left: 10px;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 17px;
+    color: #000000;
+}
+.logo__element:first-child{
+    margin-left: 40px;
+}
+.logo__element:hover{
+    background: #faf7f8;
+    padding: 7px 0;
+    margin-top: -7px; 
+
+    
+}
+.logo{
+    background: #ffffff;
+}
+.logo__block-tell{
+    text-align: right;
+    margin-left: 30px;
+    margin-top: 8px;
+    margin-bottom: 33px;
+    float: right;
+}
+.logo__button{
+    border: 1px solid #2f1059;
+    border-radius: 5px;
+    color: #2f1059;
+    font-family: "Roboto Slab";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17px;
+    font-family: "Font Awesome";
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 7px 2px 10px 8px;
+}
+.logo__tell{
+    color: #2f1059;
+    font-family: "Roboto Slab";
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.header{
+    background: url(../images/^177F7B8дом.png) no-repeat  ;
+    /* background-size: ; */
+    display: block;
+    width: auto;
+    height: auto;
+}
+.header__tex{
+    width: auto;
+    padding-bottom: 38px;
+    padding-top: 72px;
+    text-align: center;
+    display: block;
+    font-family: "Museo Sans Cyrl -100";
+    background: url(..//images/облочко.png) no-repeat ;
+    background-origin: content-box;
+    background-position: center;
+    height: auto;
+    /* border: 1px solid red; */
+
+}
+.header__tex1{
+    color: #2f1059;
+    font-family: "Museo Sans Cyrl -100";
+    font-weight: 300;
+    line-height: 28px;
+    font-size: 22px;
+}
+.header__tex1 span:first-child{
+    font-family: "Roboto Slab";
+    font-weight: 700;
+}
+.header__tex1 span:last-child{
+    font-family: "Roboto Slab";
+    font-weight: 700;
+}
+h1{
+    color: #2f1059;
+    font-family: "Roboto Slab";
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 17px;
+    text-transform: uppercase;
+    margin-top: 23px;
+    margin-bottom: 8px;
+}
+.header__tex2{
+    color: #2f1059;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    font-family: "Roboto Slab";
+}
+.header__tex2 span{
+    font-family: "Roboto Slab";
+    font-weight: 700;
+}
+.header__block-form{
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 197px;
+    background: url(..//images/Формочка_на_банере.png) no-repeat;
+    text-align: center;
+    background-origin: content-box;
+    background-position: center;
+    height: 238px;
+    width: 780px;
+    margin-bottom:47px ;
+
+}
+.header__head-tex{
+    display:block;
+    padding-top: 35px;
+    color: #fbfafa;
+    font-family: "Roboto Slab";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.header__tex-fom p{
+    font-family: "Roboto Slab";
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+    color:#fff;
+    display: block;
+}
+.header__form{
+    margin-top: 26px;
+    margin-bottom: 45px;
+}
+.header__input{
+    border-radius: 5px;
+    width: 201px ;
+    height: 51px;
+    padding: 17px 0 25px 19px;
+    box-sizing: border-box;
+    opacity: 0.81;
+    color: #000000;
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 17px;
+    border: none;
+}
+.header__form input:last-child{
+    border-radius: 5px;
+    background-color: #d22828;
+    color: #ffffff;
+    height: 51px;
+    width: 274px;
+    padding: 17px 27px 19px;
+    box-sizing: border-box;
+    border: none;
+    
+}
+.header__title{
+    color: #7925ec;
+    font-family: "Roboto Slab";
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 15.3px;
+}
+.header__title span{
+    padding: 3px;
+    border-radius: 3px;
+    border: 1px solid #7925ec;
+    display: inline-block;
+}
+.elips__elips{
+    background: url(..//images/Эллипс.png) no-repeat ;
+    color: #000000;
+    font-family: "Roboto Slab";
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: center;
+    width: 153px;
+    height: 146px;
+    margin-left: 50px;
+    background-origin: content-box;
+    float: left;
+}
+.elips{
+    width: 1300px;
+height: 276px;
+display: block;
+margin: 0 auto;
+margin-top: 47px;
+}
+.elips{
+    margin-bottom: 15px;
+}
+.elips__elips:nth-child(1){
+    margin-top: 120px;
+}
+.elips__elips:nth-child(1) p{
+    padding: 53px 7px;
+}
+.elips__elips:nth-child(2){
+    margin-top: 52px;
+}
+.elips__elips:nth-child(2) p{
+    padding: 57px 14px;
+}
+.elips__elips:nth-child(3){
+
+}
+.elips__elips:nth-child(3) p{
+    padding: 43px 20px;
+}
+.elips__elips:nth-child(4){
+    
+}
+.elips__elips:nth-child(4) p{
+    padding: 43px 12px;
+}
+.elips__elips:nth-child(5){
+    margin-top: 52px;
+}
+.elips__elips:nth-child(5) p{
+    color: #000000;
+    font-family: "Roboto Slab";
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 43px 12px;
+    
+}
+.elips__elips:nth-child(6){
+    margin-top: 130px;
+}
+.elips__elips:nth-child(6) p{
+    padding: 33px 12px;
+}
+.elips__elips span{
+    color: #000000;
+    font-family: "Roboto Slab";
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px
+}
+.timing{
+    background: url(/images/KПрямоугольник\ png.png) no-repeat ;
+}
+.timing__tex{
+    text-align: center;
+}
+.timing__info-home{
+    color: #ffffff;
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    line-height: 44px;
+    display: block;
+    font-size: 30px;
+}
+.timing__tex{
+    padding-top: 46px;
+    color: #ffffff;
+    font-family: "Roboto Slab";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 38px;
+    display: block;
+}
+.timing__imeges{
+    margin-top: 13px;
+    background: url(/images/фиолетовый\ круг.png) no-repeat ;
+    background-position: center;
+    padding: 7px;
+}
+.timing{
+    text-align: center;
+}
+.desna{
+    margin-left: 13%;
+    margin-right: 10%;
+}
+.desna__header{
+    text-align: center;
+    margin-bottom: 41px;
+    display: block;
+}
+.desna__header-tex{
+    display: block;
+    color: #000000;
+    font-family: "Roboto Slab";
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: 0.74px;
+    text-align: center;
+}
+.desna__header p{
+    display: block;
+    color: #fbfafa;
+    font-family: "Roboto Slab";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 44px;
+    color: #000000;
+}
+.desna__ul{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.desna__ul li{
+    float: left;
+    margin-left: 28px;
+}
+.desna__ul li:first-child{
+    margin: 0;
+}
+.desna__ul li:nth-child(2){
+    padding-top: 31px;
+}
+.desna__img figcaption{
+    text-align: center;
+}
+.desna__tex-img{
+    color: #000000;
+    font-family: "Roboto Slab";
+    font-size: 21px;
+    font-weight: 700;
+}
+.desna__img figcaption p:last-child{
+    color: #000000;
+    font-family: "Roboto Slab";
+    font-weight: 300;
+}
+.obgect{
+    margin-top: 88px;
+    height: auto;
+    background: rgba(193, 255, 193, 0.24);
+    height: 545px;
+}
+
+.object__content{
+    display: block;
+}
+h2{
+    margin: 0;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 60px;
+    color: #000000;
+    font-family: "Roboto Slab";
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 44px;
+    text-transform: uppercase;
+}
+.obgect__ul {
+    float: left;
+    display: block;
+    text-align: center;
+
+}
+.obgect__mein-ul{
+    margin: 0 17%;
+}
+.obgect__mein-ul ul:first-child{
+
+}
+.obgect__mein-ul ul:last-child{
+    
+}
+.obgect__mein-ul ul:nth-last-child(2){
+    margin: 0 40px;
+}
+.obgect__ul li {
+    float: none;
+    display: list-item;
+    line-height: 37px;
+    color: #000000;
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.32px;
+    list-style-type: none;
+    text-align: left;
+}
+.obgect__ul p{
+    color: #000000;
+    font-family: "Roboto Slab";
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0.38px;
+    text-align: left;
+    display: inline;
+    /* padding-bottom: 16px; */
+}
+.obgect__ul p::after{
+    background: url(/images/Прямоугольник_14.png);
+    content:"" ;
+    height: 37px;
+    display: block;
+}
+.greenp{
+    background: url(/images/зеленный\ апямоуг.png) no-repeat;
+    height: 115px;
+}
+.conteiner{
+    margin: 28px 10% 28px 16%;
+}
+.greenp__element{
+    float: left;
+    margin-right: 42px;
+    height: 59px;
+    display: block;
+}
+.greenp__elemen img{
+    
+}
+.greenp__element p{
+    font-family: "Roboto Slab";
+    color: #fbfafa; 
+    font-size: 13px;
+
+}
+.greenp__element p span{
+    color: #fbfafa;
+    font-family: "Roboto Slab";
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    
+}
+.home ul li img{
+    margin: 0;
+    padding: 0;
+}
+.home ul li{
+    width: 381px;
+    margin-left: 71px;
+}
+.home ul li:nth-child(2){
+    padding: 0;
+}
+.home ul li figcaption{
+    padding-top: 20px;
+    text-align: left;
+    width: 381px;
+}
+.home ul li p{
+    color: #000000;
+    font-family: "Roboto Slab";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-bottom: 17px;
+}
+.home ul {
+    margin-left: 8%;
+}
+.complection{
+    margin-top: 70px;
+    background: rgba(43, 153, 43, 0.8);
+    height: 465px;
+}
+.complection h2{
+    color: #ffffff;
+    font-family: "Roboto Slab";
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 44px;
+    text-transform: uppercase;
+    padding-bottom: 0;
+}
+.complection p{
+    color: #ffffff;
+    font-family: "Roboto Slab";
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-left: 11%;
+    margin-top: 53px;
+    margin-bottom: 11px;
+}
+.comp{
+    float: left;
+    display: block;
+    text-align: center;
+    margin-left: 55px;
+}
+.comp li{
+    float: none;
+    display: list-item;
+    line-height: 37px;
+    color: #000000;
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.32px;
+    list-style-type: none;
+    text-align: left;
+    color: #ffffff;
+
+}
+.c1{
+    margin-left: 11%;
+}
+.c1 ul:first-child{
+    margin: 0;
+}
+.dock{
+    background: url(/images/fon.png) no-repeat;
+}
+.dock h2{
+    color: #000000;
+    font-family: "Roboto Slab";
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 44px;
+    padding-top: 83px;
+    padding-bottom: 18px;
+}
+.dock p{
+display: block;
+color: #000000;
+font-family: "Roboto Slab";
+font-size: 21px;
+font-weight: 300;
+line-height: 44px;
+text-align: center;
+
+}
+.dock__dock{
+margin-left:16.5%;
+}
+.dock__dock img{
+ margin-right: 25px;
+ /* display: block; */
+}
+.dock__dock  img:last-child{
+    margin: 0;
+}
+.footer{
+    background:#080808;
+}
+.logo__conteiner2{
+    margin-top: 75px;
+    margin-right: 5%;
+    margin-left: 180px;
+    padding-top: 11px;
+    padding-bottom: 16px;
+    height: 100px;
+    display: block;
+}
+.logo__logo2{
+    float: left;
+}
+.logo__info2{
+    margin-left: 12px;
+    float: left;
+    margin-top: 25px;
+    color: #fff;
+}
+.logo__block-tell2{
+    text-align: right;
+    margin-left: 30px;
+    margin-top: 8px;
+    margin-bottom: 33px;
+    float: right;
+}
+.logo__button2{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "Roboto Slab";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17px;
+    font-family: "Font Awesome";
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 7px 2px 10px 8px;
+}
+.logo__tell2{
+    color: #fff;
+    font-family: "Roboto Slab";
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 17px;
+}
+.logo__conteiner2 p{
+    color: #fff;
+    float: left;
+    display: block;
+}
+.adres{
+    margin-left: 95px;
+    margin-top: 20px;
+    margin-bottom: 38px;
+    color: #fbfafa;
+font-family: "Roboto Slab";
+font-size: 13px;
+font-weight: 300;
+line-height: 17px;
+text-decoration: underline;
+}
+.adress{
+    margin-left: 120px;
+    display: block;
+    float: left;
+    color: #fbfafa;
+font-family: "Roboto Slab";
+font-size: 14px;
+font-weight: 300;
+    
+}
+.adress span{
+    font-family: "Roboto Slab";
+font-weight: 700;
+line-height: 18px;
+}
