@@ -89,7 +89,7 @@ div, p, button, li, ul{
 }
 
 .header{
-    background: url(../images/^177F7B8дом.png) no-repeat  ;
+    background: url(..//images/^177F7B8дом.png) no-repeat  ;
     /* background-size: ; */
     display: block;
     width: auto;
@@ -291,7 +291,7 @@ margin-top: 47px;
     line-height: 20px
 }
 .timing{
-    background: url(/images/KПрямоугольник\ png.png) no-repeat ;
+    background: url(..//images/KПрямоугольник\ png.png) no-repeat ;
 }
 .timing__tex{
     text-align: center;
@@ -315,7 +315,7 @@ margin-top: 47px;
 }
 .timing__imeges{
     margin-top: 13px;
-    background: url(/images/фиолетовый\ круг.png) no-repeat ;
+    background: url(..//images/фиолетовый\ круг.png) no-repeat ;
     background-position: center;
     padding: 7px;
 }
@@ -445,13 +445,13 @@ h2{
     /* padding-bottom: 16px; */
 }
 .obgect__ul p::after{
-    background: url(/images/Прямоугольник_14.png);
+    background: url(..//images/Прямоугольник_14.png);
     content:"" ;
     height: 37px;
     display: block;
 }
 .greenp{
-    background: url(/images/зеленный\ апямоуг.png) no-repeat;
+    background: url(..//images/зеленный\ апямоуг.png) no-repeat;
     height: 115px;
 }
 .conteiner{
@@ -558,7 +558,7 @@ h2{
     margin: 0;
 }
 .dock{
-    background: url(/images/fon.png) no-repeat;
+    background: url(..//images/fon.png) no-repeat;
 }
 .dock h2{
     color: #000000;
